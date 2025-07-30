@@ -48,7 +48,7 @@ This repository implements a Retrieval-Augmented Generation (RAG) workflow for m
 1. Place your punch list spreadsheet in the project root:
 
    ```
-   punchList.xlsx
+   punchList.csv
    ```
 
 2. Open **Electrical_CSVRAG.ipynb** in Jupyter  
@@ -60,7 +60,7 @@ This repository implements a Retrieval-Augmented Generation (RAG) workflow for m
    4. Run RAG queries against the index  
 
 4. Configure model backend:
-   - Set `OPENAI_API_KEY` for OpenAI  
+   - Set `GROQ_API_KEY` for GROQ  
    - Or point to a local Ollama server  
 
 ---
